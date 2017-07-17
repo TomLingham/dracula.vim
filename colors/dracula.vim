@@ -163,6 +163,20 @@ hi markdownUrl ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bd93f9 guibg=NONE gui=
 hi markdownUrlTitleDelimiter ctermfg=84 ctermbg=NONE cterm=NONE guifg=#50fa7b guibg=NONE gui=NONE
 " }}}
 
+" Javascript: {{{
+hi jsFuncArgs ctermfg=84 ctermbg=NONE cterm=NONE guifg=#ffb86c guibg=NONE gui=italic"
+hi jsFuncCall ctermfg=84 ctermbg=NONE cterm=NONE guifg=#50fa7b guibg=NONE gui=NONE
+hi jsObjectProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#8be9fd guibg=NONE gui=NONE
+hi jsTemplateBraces ctermfg=84 ctermbg=NONE cterm=NONE guifg=#8be9fd guibg=NONE gui=NONE
+hi xmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff79c6 guibg=NONE gui=NONE
+hi xmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi xmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff79c6 guibg=NONE gui=NONE
+" }}}
+
+
+" JSON: {{{
+hi jsonKeyword ctermfg=84 ctermbg=NONE cterm=NONE guifg=#50fa7b guibg=NONE gui=NONE
+" }}}
 
 "
 "cygwin has an annoying behavior where it resets background to light
